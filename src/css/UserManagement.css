@@ -1,0 +1,187 @@
+.user-management {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    border-radius: 8px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Add User Button */
+button:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Table Styles */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Actions Column */
+.user-table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.user-table button:first-child {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.user-table button:first-child:hover {
+    background-color: #e0a800;
+}
+
+.user-table button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+.user-table button:last-child:hover {
+    background-color: #c82333;
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Error Message Styles */
+.error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .user-management {
+        padding: 15px;
+    }
+
+    .user-table th,
+    .user-table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .pagination button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .user-management {
+        padding: 5px;
+    }
+
+    .user-table th,
+    .user-table td {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+
+
+    .pagination {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .pagination button {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+    .user-table button {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+}
