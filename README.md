@@ -22,6 +22,51 @@ A simple web application to manage users. It allows viewing, adding, editing, an
 - **HTTP Requests**: Axios
 - **API**: JSONPlaceholder
 
+## Installation :
+
+To get started with the project, follow these steps:
+
+1. **Clone the repository:**
+    ```sh
+    git clone - https://github.com/Ekthasurya/Tacnique-User_Management_Dashboard.git
+    ```
+
+2. **Navigate to the project directory:**
+    ```sh
+    cd user-management
+    ```
+
+3. **Install dependencies:**
+    ```sh
+    npm install
+    ```
+
+4. **Install additional libraries:**
+    ```sh
+    npm install  axios react-router-dom react react-dom
+    ```    
+
+5. **Start the development server:**
+    ```sh
+    npm start
+    ```
+
+# images
+## User Management
+![Screenshot 2025-01-21 at 01-14-20 Vite React](https://github.com/user-attachments/assets/933157d1-f517-4ee5-a644-acb8fd0b8965)
+
+## Add User
+![Screenshot 2025-01-21 at 03-44-24 Vite React](https://github.com/user-attachments/assets/48632bbd-27b4-4904-a50d-2435bd9ffb8b)
+
+## Edit User
+![Screenshot 2025-01-21 at 03-44-57 Vite React](https://github.com/user-attachments/assets/b12e9473-a2cb-42ab-ac44-5c71a6812542)
+
+
+
+
+
+
+
 
 
 
